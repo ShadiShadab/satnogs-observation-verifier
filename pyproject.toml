@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "satnogs-observation-verifier"
+version = "0.1.0"
+description = "Verify one SatNOGS observation end to end: record, artifacts, upload, metadata and client logs"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+license = {text = "AGPL-3.0-or-later"}
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+satnogs-verify = "satnogs_verify.cli:main"
+
+[tool.setuptools]
+packages = ["satnogs_verify"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -m 'not live'"
+markers = ["live: calls the public SatNOGS Network API"]

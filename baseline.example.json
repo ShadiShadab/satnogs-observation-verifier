@@ -1,0 +1,11 @@
+{
+  "_comment": "Example baseline from one reference station (RTL-SDR Blog V4, client 2.1.x, October 2026). Measure your own station before using thresholds; values here are not universal.",
+  "waterfall_bytes": [1600000, 1750000],
+  "audio_bytes_per_second": {
+    "FSK": [6000, 8000]
+  },
+  "upload_max_minutes": 10,
+  "start_offset_max_s": 3,
+  "sdr_open_to_stream_max_s": 2,
+  "flowgraph_end_tolerance_s": 5
+}
