@@ -1,0 +1,8 @@
+2026-10-16T16:31:10.000000000Z Fetching jobs ... Max retries exceeded (noise outside the pass)
+2026-10-16T16:32:01.750123456Z ZMQ FRAME SUB Connecting to tcp://127.0.0.1:5555
+2026-10-16T16:32:02.100000000Z Found Rafael Micro R828D tuner
+2026-10-16T16:32:02.400000000Z [INFO] Opening Generic RTL2832U OEM :: 00000001...
+2026-10-16T16:32:03.350000000Z [INFO] Using format CF32.
+2026-10-16T16:32:03.400000000Z Allocating 15 zero-copy buffers
+2026-10-16T16:42:00.900000000Z netrigctl_close: done
+2026-10-16T16:42:01.200000000Z netrigctl_close: done

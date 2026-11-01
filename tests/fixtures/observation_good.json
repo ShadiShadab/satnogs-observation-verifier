@@ -1,0 +1,16 @@
+{
+  "id": 100001,
+  "start": "2026-10-16T16:32:00Z",
+  "end": "2026-10-16T16:42:00Z",
+  "ground_station": 9999,
+  "station_name": "synthetic-test-station",
+  "norad_cat_id": 99999,
+  "status": "good",
+  "status_certainty": 100,
+  "transmitter_mode": "FSK",
+  "payload": "https://example.invalid/satnogs_100001.ogg",
+  "waterfall": "https://example.invalid/waterfall_100001.png",
+  "demoddata": [],
+  "client_version": "2.1.4",
+  "client_metadata": "{\"radio\": {\"parameters\": {\"mode\": \"FSK\", \"gain\": \"32.8\", \"baud\": \"9600\"}}}"
+}
